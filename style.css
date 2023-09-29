@@ -3,8 +3,21 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  color: var(--text-color);
 }
 
+:root {
+  --primary-color:  #e43516;
+  --body-color: #F0F0F0;
+  --text-color: #1b1a1a;
+  --secundary-color: #4CAF50;
+  --highlight-color: #fade3b;
+  --terciary-color: rgb(74, 105, 255);
+}
+
+body {
+  background: var(--body-color);
+}
 
 .container {
   max-height: 100%;
@@ -18,8 +31,6 @@ header section {
   text-align: center;
   align-items: center;
   border-bottom: 1px solid black;
-
-
 }
 
 .header {
@@ -47,7 +58,7 @@ header section {
 }
 
 .header-links a {
-  color: black;
+  color: var(--text-color);
 }
 
 .header h2 {
@@ -77,7 +88,7 @@ header section {
 }
 
 .main-section-1 h1 span {
-  color: rgb(192, 34, 22);
+  color: var(--primary-color);
 }
 
 .main-section-1 p {
@@ -96,7 +107,7 @@ header section {
 }
 
 .cards h1{
-  color: #000;
+  color: var(--text-color);
   font-family: 'Roboto',sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -108,7 +119,7 @@ header section {
 
 .cards p{
   width: 204px;
-  color: #000;
+  color: var(--text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -126,7 +137,7 @@ div a .arrow {
   height: 306px;
   flex-shrink: 0;
   border: 2px solid #000;
-  background: #0011ffda;
+  background: var(--terciary-color);
   box-shadow: 4px 4px 0px 0px #000;
   margin: 30px 32px 10px 48px;
 
@@ -137,7 +148,7 @@ div a .arrow {
   height: 306px;
   flex-shrink: 0;
   border: 2px solid #000;
-  background: #eeff00ef;
+  background: var(--highlight-color);
   box-shadow: 4px 4px 0px 0px #000;
   margin: 10px 48px 10px 32px;
 
@@ -148,7 +159,7 @@ div a .arrow {
   height: 306px;
   flex-shrink: 0;
   border: 2px solid #000; 
-  background: #10bd00;
+  background: var(--secundary-color);
   box-shadow: 4px 4px 0px 0px #000;
   margin: 10px 32px 10px 48px;
 }
@@ -159,7 +170,7 @@ div a .arrow {
   height: 306px;
   flex-shrink: 0;
   border: 2px solid #000;
-  background: #ff0000ec;
+  background: var(--primary-color);
   box-shadow: 4px 4px 0px 0px #000;
   margin: 10px 48px 20px 32px;
   padding-bottom: 20px;
@@ -167,7 +178,7 @@ div a .arrow {
 }
 
 #add{
-  color: #000;
+  color: var(--text-color);
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
