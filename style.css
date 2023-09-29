@@ -5,6 +5,9 @@
   text-decoration: none;
 }
 
+
+
+
 .container {
   margin: 0 2rem;
   border-left: 1px solid black;
@@ -19,7 +22,11 @@ header section {
   text-align: center;
   align-items: center;
   border-bottom: 1px solid black;
+
+
 }
+
+
 
 .header {
   display: flex;
@@ -56,4 +63,9 @@ header section {
 
 .main-section-1 h1 {
   font-size: 3.2rem;
+}
+
+footer{
+  margin: 0 2rem;
+  border: 1px solid;
 }
