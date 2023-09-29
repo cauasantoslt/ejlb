@@ -7,14 +7,11 @@
 
 
 .container {
+  max-height: 100%;
   text-align: center;
   margin: 0 2rem;
   border-left: 1px solid black;
   border-right: 1px solid black;
-}
-
-header {
-  max-height: 6.25rem;
 }
 
 header section {
@@ -42,7 +39,9 @@ header section {
   display: flex;
   justify-content: center;
   padding-bottom: 1rem;
-  padding-right: 3.2rem;
+  margin: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
   gap: 10px;
   font-family: 'Roboto', sans-serif;
 }
@@ -62,16 +61,19 @@ header section {
 }
 
 .main-section-1 {
-  margin: 5rem 0 0 4.6rem ;
+  margin:auto;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
 .main-section-1 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  letter-spacing: -4px;
-  line-height: 2.6rem;
-  margin-bottom: 1.5rem;
+  letter-spacing: -2px;
+  line-height: 3.2rem;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 .main-section-1 h1 span {
@@ -88,86 +90,91 @@ header section {
   border-radius: 10px;
 }
 
+.cards {
+  margin: auto;
+  align-items: center;
+}
+
 .cards h1{
-color: #000;
-font-family: 'Roboto';
-font-size: 24px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-display: flex;
-margin: 34px 34px;
+  color: #000;
+  font-family: 'Roboto',sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: flex;
+  margin: 34px 34px;
 }
 
 .cards p{
-width: 204px;
-color: #000;
-font-family: 'Roboto';
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-left: 34px;
+  width: 204px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 34px;
 }
 
 div a .arrow {
- margin: 80px 20px 10px 180px;
+  margin: 80px 20px 10px 180px;
 }
 
 #card1{
-width: 272px;
-height: 306px;
-flex-shrink: 0;
-border: 2px solid #000;
-background: #0011ffda;
-box-shadow: 4px 4px 0px 0px #000;
-margin: 30px 32px 10px 48px;
+  width: 272px;
+  height: 306px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #0011ffda;
+  box-shadow: 4px 4px 0px 0px #000;
+  margin: 30px 32px 10px 48px;
 
 }
 
 #card2{
-width: 272px;
-height: 306px;
-flex-shrink: 0;
-border: 2px solid #000;
-background: #eeff00ef;
-box-shadow: 4px 4px 0px 0px #000;
-margin: 10px 48px 10px 32px;
+  width: 272px;
+  height: 306px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #eeff00ef;
+  box-shadow: 4px 4px 0px 0px #000;
+  margin: 10px 48px 10px 32px;
 
 }
 
 #card3{
-width: 272px;
-height: 306px;
-flex-shrink: 0;
-border: 2px solid #000;
-background: #10bd00;
-box-shadow: 4px 4px 0px 0px #000;
-margin: 10px 32px 10px 48px;
+  width: 272px;
+  height: 306px;
+  flex-shrink: 0;
+  border: 2px solid #000; 
+  background: #10bd00;
+  box-shadow: 4px 4px 0px 0px #000;
+  margin: 10px 32px 10px 48px;
 }
 
 #card4{
 
-width: 272px;
-height: 306px;
-flex-shrink: 0;
-border: 2px solid #000;
-background: #ff0000ec;
-box-shadow: 4px 4px 0px 0px #000;
-margin: 10px 48px 20px 32px;
-padding-bottom: 20px;
+  width: 272px;
+  height: 306px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #ff0000ec;
+  box-shadow: 4px 4px 0px 0px #000;
+  margin: 10px 48px 20px 32px;
+  padding-bottom: 20px;
   
 }
 
 #add{
   color: #000;
-text-align: center;
-font-family: Roboto;
-font-size: 40px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-margin: 48px 0 0 ;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 48px 0 0 ;
 }
 
 #social-links{
@@ -178,8 +185,6 @@ margin: 48px 0 0 ;
   gap: 8px;
 }
 
-
-
 footer{
   border: 1px solid;
   display: flex;
@@ -189,6 +194,34 @@ footer{
   margin: 0 2rem;
   gap: 32px;
   padding-top: 10px;
-
 }
 
+.footer-info h1,p,img {
+  align-items: center;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 3rem;
+}
+
+
+/*Responsivo*/ 
+
+@media screen and (max-width: 700px) {
+  .body-image {
+    display: none;
+  }
+  .header-button {
+    display: none;
+  }
+  #desktop-image2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #desktop-image {
+    display: none;
+  }
+}
