@@ -67,6 +67,7 @@ header section {
   position: absolute;
   right: .5rem;
   top: .5rem;
+  cursor: pointer;
 }
 
 
