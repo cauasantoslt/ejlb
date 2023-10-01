@@ -5,7 +5,8 @@ function clickMenu() {
     itens.style.display = 'block'
   }
 }
-function closeMenu() {
+
+function close() {
   if (itens.style.display == 'block') {
     itens.style.display = 'none'
   } else {

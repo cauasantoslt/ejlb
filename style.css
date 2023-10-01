@@ -113,6 +113,7 @@ header section {
 .main-section-1 button {
   padding: .8rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .main-section-1 button:hover {
