@@ -16,23 +16,35 @@
     <header class="container">
       <section>
         <div class="header">
-          <img id="desktop-image2" class="title-image" src="assets/title-image2.png" alt="">
-          <img
-            id="desktop-image"
-            class="title-image"
-            src="assets/title-image.png"
-            alt="imagem do titulo"
-          />
-          <h2>EREM Jose Leite Barros</h2>
-          <button class="header-button"><a href="https://siepe.educacao.pe.gov.br/">Portal siepe</a></button>
+            <img id="desktop-image2" class="title-image" src="assets/title-image2.png" alt="">
+            <img
+              id="desktop-image"
+              class="title-image"
+              src="assets/title-image.png"
+              alt="imagem do titulo"
+            />
+            <h2 class="abrevied-title">EJLB</h2>
+            <h2 class="complet-title">EREM Jose Leite Barros</h2>
+            <button class="header-button"><a href="https://siepe.educacao.pe.gov.br/">Portal siepe</a></button>
+          <div>
+            <nav class="navigation-menu">
+              <ion-icon id="burguer"  class="header-burguer" name="menu" onclick="clickMenu()"></ion-icon>
+              <div class="box-links">
+                <ul id="itens" class="header-links">
+                  <ion-icon id="close" name="close-sharp" onclick="closeMenu()"></ion-icon>
+                  <li><a href="">Início</a></li>
+                  <li><a href="">Contato</a></li>
+                  <li><a href="">Projetos</a></li>
+                  <li><a href="">Eventos</a></li>
+                  <li><a href="">Quem<br>Somos</a></li>
+                </ul>
+
+              </div>
+            </nav>
+          </div>
+
         </div>
-        <div class="header-links">
-          <a href="">Início</a>
-          <a href="">Contato</a>
-          <a href="">Projetos</a>
-          <a href="">Eventos</a>
-          <a href="">Quem Somos</a>
-        </div>
+
       </section>
     </header>
     <main class="container">
@@ -146,6 +158,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
 
   </body>
 </html>

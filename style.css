@@ -17,6 +17,7 @@
 
 body {
   background: var(--body-color);
+  overflow-x: hidden;
 }
 
 .container {
@@ -31,6 +32,7 @@ header section {
   text-align: center;
   align-items: center;
   border-bottom: 1px solid black;
+  display: block;
 }
 
 .header {
@@ -39,6 +41,8 @@ header section {
   justify-content: space-around;
   padding-top: 1rem;
   align-items: center;
+  padding-bottom: 1.3rem;
+  gap: 1.5rem;
 }
 
 .title-image {
@@ -46,24 +50,34 @@ header section {
   filter: drop-shadow(2px 2px 2px rgba(5, 0, 0, 0.9));
 }
 
-.header-links {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1rem;
-  margin: auto;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  gap: 10px;
-  font-family: 'Roboto', sans-serif;
+.navigation-menu {
+  position: relative;
 }
 
-.header-links a {
+.header-links li {
+  padding: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  align-items: center;
   color: var(--text-color);
 }
+
+.header-links ion-icon {
+  font-size: 2rem;
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+}
+
 
 .header h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
+}
+
+.header-burguer {
+  cursor: pointer;
+  font-size: 1.6rem;
 }
 
 .main-1 {
@@ -101,9 +115,21 @@ header section {
   border-radius: 10px;
 }
 
+.main-section-1 button:hover {
+  background: var(--primary-color);
+  transition: .3s;
+  box-shadow: 1px 1px 25px 1px red;
+  transform: scale(1.1);
+}
+
 .cards {
   margin: auto;
   align-items: center;
+}
+
+.cards div:hover {
+  transform: translate(19px);
+  transition: 0.3s;
 }
 
 .cards h1{
@@ -219,7 +245,7 @@ footer{
 
 /*Responsivo*/ 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .body-image {
     display: none;
   }
@@ -229,10 +255,37 @@ footer{
   #desktop-image2 {
     display: none;
   }
+  .complet-title{
+    display: none;
+  }
+  .header-links{
+    display: none;
+  }
+
+  .header-links {
+    padding: 4rem;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border-left: 1px solid --text-color;
+    animation: open 1s;
+  }
+  @keyframes open {
+    0% {right: -20rem;}
+  }
 }
 
 @media screen and (min-width: 700px) {
   #desktop-image {
     display: none;
   }
+  .abrevied-title{
+    display: none;
+  }
+
 }
