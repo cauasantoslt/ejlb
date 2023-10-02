@@ -28,6 +28,8 @@ body {
   border-right: 1px solid black;
 }
 
+/* HEADER SECTION */
+
 header section {
   text-align: center;
   align-items: center;
@@ -129,6 +131,9 @@ header section {
   color: #F0F0F0;
   transform: scale(1.1);
 }
+
+/* INFORMATION CARDS
+*/
 
 .cards {
   margin: auto;
@@ -236,6 +241,7 @@ div a .arrow {
   cursor: pointer;
 }
 
+/*FOOTER */
 
 footer{
   border: 1px solid black;
