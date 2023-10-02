@@ -49,6 +49,8 @@ header section {
   position: fixed;
   width: 100%;
   z-index: 2;
+  margin: auto;
+  
 }
 
 .title-image {
@@ -90,8 +92,9 @@ header section {
   align-items: center;
   width: 100vw;
   z-index: 1;
-  padding:6.5rem 19rem 1rem 20rem;
+  padding:6.5rem 0rem 1rem 0rem;
   font-family: 'Roboto', sans-serif;
+  justify-content: center;
 }
 
 .desktop-links a {
@@ -113,7 +116,6 @@ header section {
 
 
 
-
 /*Body Section*/
 
 
@@ -124,8 +126,7 @@ header section {
 }
 
 .main-section-1 {
-  margin:auto;
-  margin-top: 2rem;
+  margin: auto;
   padding: 1rem;
 }
 
@@ -162,6 +163,7 @@ header section {
 
 .body-image {
   filter: drop-shadow(10px 4px 10px rgba(5, 0, 0, 0.9));
+  margin: auto;
 }
 
 /* INFORMATION CARDS
@@ -381,7 +383,7 @@ footer{
   }
   .cards {
     display: flex;
-    margin-left: .4rem;
+    justify-content: center;
   }
 
   #card1, #card2, #card3, #card4 {
