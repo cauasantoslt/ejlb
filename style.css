@@ -48,7 +48,7 @@ header section {
   background: var(--text-color);
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .title-image {
@@ -76,11 +76,27 @@ header section {
   cursor: pointer;
 }
 
-
 .header h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: var(--body-color);
+}
+
+.desktop-links {
+  display: flex;
+  position: fixed;
+  background: var(--text-color);
+  text-align: center;
+  align-items: center;
+  width: 100vw;
+  z-index: 1;
+  padding:6.5rem 19rem 1rem 20rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.desktop-links a {
+  color: var(--body-color);
+  padding: 1rem;
 }
 
 .header-burguer {
@@ -88,6 +104,18 @@ header section {
   font-size: 1.6rem;
   color: var(--body-color);
 }
+
+.header-button {
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 10px;
+}
+
+
+
+
+/*Body Section*/
+
 
 .main-1 {
   display: flex;
@@ -130,6 +158,10 @@ header section {
   transition: .3s;
   color: #F0F0F0;
   transform: scale(1.1);
+}
+
+.body-image {
+  filter: drop-shadow(10px 4px 10px rgba(5, 0, 0, 0.9));
 }
 
 /* INFORMATION CARDS
@@ -303,7 +335,6 @@ footer{
   .header-links{
     display: none;
   }
-
   .header-links {
     padding: 4rem;
     background: var(--body-color);
@@ -317,6 +348,9 @@ footer{
     border-left: 1px solid --text-color;
     animation: open 1s;
   }
+  .desktop-links {
+    display: none;
+  }
 
   @keyframes open {
     0% {right: -20rem;}
@@ -329,12 +363,32 @@ footer{
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 751px) {
   #desktop-image {
     display: none;
   }
   .abrevied-title{
     display: none;
   }
+  .header-burguer, #close, .header-links {
+    display: none;
+  }
+  .main-1 {
+    margin-top: calc(+1rem);
+  }
+  #desktop-image2 {
+    margin-left: 10rem;
+  }
+  .cards {
+    display: flex;
+    margin-left: .4rem;
+  }
 
+  #card1, #card2, #card3, #card4 {
+    margin: 1rem;
+
+  }
+  #card1:hover, #card2:hover, #card3:hover, #card4:hover {
+    transform: scale(1.07);
+  }
 }
