@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="/styles/quemsomos.css" />
+    <link rel="stylesheet" href="/script.js" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quem Somos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <section>
+
+        <!------------------------------TOP BAR------------------------->
+        <div class="header">
+            <img id="desktop-image2" class="title-image" src="/assets/title-image2.png" alt="">
+            <img
+              id="desktop-image"
+              class="title-image"
+              src="/assets/title-image.png"
+              alt="imagem do titulo"
+            />
+            <h2 class="abrevied-title">EJLB</h2>
+            <h2 class="complet-title">EREM Jose Leite Barros</h2>
+            <button class="header-button"><a href="https://siepe.educacao.pe.gov.br/">Portal siepe</a></button>
+          
+            <!----------------------------NAVIGATION MENU------------------------>
+            <div>
+            <nav class="navigation-menu">
+              <ion-icon id="burguer"  class="header-burguer" name="menu" onclick="clickMenu()"></ion-icon>
+              <div class="box-links">
+                <ul id="itens" class="header-links">
+                  <ion-icon id="close" name="close-sharp" onclick="closeMenu()"></ion-icon>
+                  <li><a href="">Início</a></li>
+                  <li><a href="">Projetos</a></li>
+                  <li><a href="">Eventos</a></li>
+                  <li><a href="">Quem<br>Somos</a></li>
+                  <li><a href="">Contato</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          </div>
+          <ul class="desktop-links">
+            <li><a href="">Início</a></li>
+            <li><a href="">Projetos</a></li>
+            <li><a href="">Eventos</a></li>
+            <li><a href="">Quem Somos</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+      </section>
+
+    <!-------------------------------FOOTER------------------------------------->
+
+    <footer >
+      <section class="footer">
+        <div class="footer-info">
+          <h1>EREM<span>JLB</span>.</h1>
+          <p class="p1">&copy;2023 Alison-Jose, Cauã-Santos.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div id="social-links">   
+            <a href="https://instagram.com/erem_jlb" target="_blank">  <ion-icon name="logo-instagram"> 
+          </ion-icon></a>
+            <a href="https://facebook.com/EremJoseLeiteBarros" target="_blank">           <ion-icon name="logo-facebook"> 
+          </ion-icon></a>     
+            <a href="" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon> </a>
+        </div>
+      </section>
+      <div class="footer-links">
+        <a href="">Projetos</a>
+        <a href="">Eventos</a>
+        <a href="">Quem Somos</a>
+        <a href="">Contato</a>
+      </div>
+    </footer>
+
+    <!--------------------------------IONICON SCRIPT---------------------------->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
+  </body>
+</html>
