@@ -114,7 +114,7 @@ header section {
   border-radius: 10px;
 }
 
-
+/*-------------------------ESSA PARTE PODE SER SUBSTITUIDA----------------------*/
 
 /*Body Section*/
 
@@ -274,6 +274,8 @@ div a .arrow {
   gap: 10px;
   cursor: pointer;
 }
+
+/*---------------------FINAL DA PARTE QUE PODE SER SUBSTITUIDA!------------------*/
 
 /*FOOTER */
 
