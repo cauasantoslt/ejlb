@@ -26,6 +26,7 @@ body {
   margin: 0 2rem;
   border-left: 1px solid black;
   border-right: 1px solid black;
+  margin-top: 6.4rem;
 }
 
 /* HEADER SECTION */
@@ -112,7 +113,93 @@ header section {
   width: 7rem;
   height: 2.5rem;
   border-radius: 10px;
+
 }
+
+/*--------------------------Title and Paragraf-------------------------------*/
+
+.contact h1{
+padding: 2rem;
+font-size: 3rem;
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+letter-spacing: -2px;
+line-height: 3.2rem;
+
+}
+
+.contact h1 span{
+  color: var(--primary-color);
+
+}
+
+.contact p{
+  border: 2px ;
+  border-radius: 10px;
+  margin: 4%;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 3rem;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+
+/*----------------------------- Contact Cards----------------------------- */
+
+.contactforms ul{
+  list-style: none;
+}
+
+.contactforms li{
+  border: 2px solid #1b1a1a;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 4% 16% 6%;
+  font-size: 18px;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+
+}
+
+.contactforms #card1{
+  background:var(--secundary-color);
+  transition: 0.2s;
+
+}
+
+.contactforms #card2{
+  background:var(--highlight-color) ;
+  transition: 0.2s;
+}
+
+.contactforms #card3{
+  background: var(--primary-color);
+  transition: 0.2s;
+}
+
+.contactforms #card4{
+  background:var(--terciary-color);
+   transition: 0.2s;
+}
+
+/*Hover*/
+
+.contactforms #card1:hover{
+  background: #4caf4fd0 ;
+}
+
+.contactforms #card2:hover{
+  background:  #fadd3bc7 ;
+}
+
+.contactforms #card3:hover{
+  background: #e43516da ;
+}
+
+.contactforms #card4:hover{
+  background:  rgba(23, 62, 255, 0.842);
+}
+
 
 
 /*FOOTER */
