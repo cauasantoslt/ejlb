@@ -186,18 +186,22 @@ line-height: 3.2rem;
 
 .contactforms #card1:hover{
   background: #4caf4fd0 ;
+  transform: scale(1.1);
 }
 
 .contactforms #card2:hover{
   background:  #fadd3bc7 ;
+  transform: scale(1.1);
 }
 
 .contactforms #card3:hover{
   background: #e43516da ;
+  transform: scale(1.1);
 }
 
 .contactforms #card4:hover{
   background:  rgba(23, 62, 255, 0.842);
+  transform: scale(1.1);
 }
 
 

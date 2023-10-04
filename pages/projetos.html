@@ -60,6 +60,66 @@
         <div>
       </section>
 
+<!-----------------------MAIN------------------------------------->
+
+<main class="container">
+  <section>
+    <h1 class="h1">PROJETOS</h1>
+    <div class="protagonistas">
+      <h1>Protagonistas</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis culpa iusto corrupti illo</p>
+      <img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+      <div class="menu">
+
+      </div>
+    </div>
+    <div class="semear">
+      <h1>Semear</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis culpa iusto corrupti illo</p>
+      <img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+      <div class="menu">
+
+      </div>
+    </div>
+    <div class="setembro">
+      <h1>Setembro Amarelo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis culpa iusto corrupti illo</p>
+    <img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+    <div class="menu">
+
+    </div>
+  </div>
+  <div class="eletivas">
+    <h1>Eletivas</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis culpa iusto corrupti illo</p>
+  <img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+  <div class="menu">
+
+  </div>
+</div>
+<div class="quinta">
+  <h1>Quinta do Abraço</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis culpa iusto corrupti illo</p>
+<img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+<div id="menu1" class="menu">
+
+</div>
+</div>
+
+<div class="robotica">
+  <h1>Robotica</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis culpa iusto corrupti illo</p>
+<img id="arrow" class="arrow" onclick="abrirMenu()" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+<div id="menu" class="menu">
+
+</div>
+</div>
+
+  </section>
+</main>
+
+
+
     <!-------------------------------FOOTER------------------------------------->
 
     <footer >
@@ -91,7 +151,30 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="script.js"></script>
+<script>
+  function clickMenu() {
+    if (itens.style.display == 'block') {
+      itens.style.display = 'none'
+  } else {
+      itens.style.display = 'block'
+}
+}
+  function closeMenu() {
+    if (itens.style.display == 'block') {
+      itens.style.display = 'none'
+  } else {
+      itens.style.display = 'block'
+}
+}
+  function abrirMenu() {
+    if (menu.style.display == 'block') {
+      menu.style.display = 'none'
+    } else {
+      menu.style.display = 'block'
+    }
+  }
+
+</script>
 
   </body>
 </html>

@@ -113,8 +113,25 @@
     <!--------------------------------IONICON SCRIPT---------------------------->
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="script.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>
+    function clickMenu() {
+  if (itens.style.display == 'block') {
+    itens.style.display = 'none'
+  } else {
+    itens.style.display = 'block'
+  }
+}
+
+function closeMenu() {
+  if (itens.style.display == 'block') {
+    itens.style.display = 'none'
+  } else {
+    itens.style.display = 'block'
+  }
+}
+
+  </script>
 
   </body>
 </html>
