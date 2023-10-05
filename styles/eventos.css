@@ -114,6 +114,94 @@ header section {
   border-radius: 10px;
 }
 
+/*MAIN*/
+
+main {
+  padding-top: 8rem;
+  transition: 1s;
+}
+
+main div {
+  margin: 4% 9% 6%;
+  text-align: left;
+  border-radius: 10px;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.5s;
+}
+
+main div h1 {
+  font-size: 1.4rem;
+}
+
+main .h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.corrida, .interclasses {
+  background: var(--secundary-color) ;
+  border: #1b1a1a 1.5px solid;
+}
+
+.festival, .arria {
+  background: var(--terciary-color);
+  border: #1b1a1a 1.5px solid;
+}
+
+.show {
+  background: var(--highlight-color);
+  border: #1b1a1a 1.5px solid;
+}
+
+.talentos {
+  background: var(--primary-color);
+  border: #1b1a1a 1.5px solid;
+}
+
+.arrow {
+  width: 2.5rem;
+  display: flex;
+  margin-left: 85%;
+  transition: 0.5s;
+}
+
+.arrow:hover {
+  transform: rotate(90deg) scale(1.5);
+  animation: 10s linear infinite;
+}
+
+/*hover*/
+
+.protagonistas:hover, .quinta:hover{
+  background: #4caf4fd0 ;
+  transform: scale(1.1);
+}
+
+.semear:hover, .robotica:hover{
+  background: rgba(23, 62, 255, 0.842); ;
+  transform: scale(1.1);
+}
+
+.eletivas:hover{
+  background: #e43516da ;
+  transform: scale(1.1);
+}
+
+.setembro:hover{
+  background: #fadd3bc7;
+  transform: scale(1.1);
+}
+
+/* MENUS */
+
+main .menu  {
+  height: 10rem;
+  display: none;
+}
+
 
 /*FOOTER */
 
@@ -232,5 +320,8 @@ footer{
   }
   #card1:hover, #card2:hover, #card3:hover, #card4:hover {
     transform: scale(1.07);
+  }
+  .arrow {
+    display: none;
   }
 }

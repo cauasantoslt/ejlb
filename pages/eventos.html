@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/script.js" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nossos Eventos</title>
+    <title>Eventos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
@@ -35,8 +35,8 @@
               <div class="box-links">
                 <ul id="itens" class="header-links">
                   <ion-icon id="close" name="close-sharp" onclick="closeMenu()"></ion-icon>
-                  
-                  <li><a href="./index.html">Início</a></li>
+                 
+                  <li><a href="../index.html">Início</a></li>
                   <li><a href="./projetos.html">Projetos</a></li>
                   <li><a href="./eventos.html">Eventos</a></li>
                   <li><a href="./quemsomos.html">Quem Somos</a></li>
@@ -49,16 +49,57 @@
           </div>
           <ul class="desktop-links">
             
-                  <li><a href="./index.html">Início</a></li>
-                  <li><a href="./projetos.html">Projetos</a></li>
-                  <li><a href="./eventos.html">Eventos</a></li>
-                  <li><a href="./quemsomos.html">Quem Somos</a></li>
-                  <li><a href="./contato.html">Contato</a></li>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./eventos.html">Eventos</a></li>
+            <li><a href="./quemsomos.html">Quem Somos</a></li>
+            <li><a href="./contato.html">Contato</a></li>
             
           </ul>
         </div>
         <div>
       </section>
+
+<!-----------------------MAIN------------------------------------->
+
+<main class="container">
+  <section>
+    <h1 class="h1">Eventos</h1>
+    <div class="corrida">
+      <h1>Corrida de Aventura</h1>
+      <p>Criada em 2011, a Corrida de Aventura reúne os alunos para uma experiência incrível, onde as equipes formadas pelos professores enfrentam provas desafiadoras!</p>
+      </div>
+    </div>
+    <div class="festival">
+      <h1>Festival Esportivo</h1>
+      <p>Realizado na Semana do Estudante, o festival conta com três dias de muita competição e põe os alunos frente a frente em diversas modalidades.</p>
+    </div>
+    <div class="show">
+      <h1>Show das Exatas </h1>
+    <p>A competição que acontece a cada dois anos, Junta as equipes dos professores das Ciências exatas em provas que exigem o conhecimento específico dos alunos.</p>
+  </div>
+  <div class="talentos">
+    <h1>Show de Talentos</h1>
+  <p>É chegado o momento de mostrar aquela sua habilidade que te faz ser único, e o Show de Tanlentos é o lugar certo para se mostrar as promessas da escola, reunindo Arte, Cultura, Música e Dança. </p>
+</div>
+<div class="interclasses">
+  <h1>Interclasses</h1>
+<p>É onde o filho chora e a mãe não vê! Os jogos Interclasses dividem as turmas para um confronto que  define a Sala Gloriosa da Escola. </p>
+</div>
+
+<div class="arria">
+  <h1>Arraiá da EJLB</h1>
+<p>Convida os alunos para a melhor época do ano, os festejos juninos! Trazendo a tradição e inovação, o Arriá da EJLB realça à cultura popular Nordestina.</p>
+
+<div id="menu" class="menu">
+
+</div>
+</div>
+
+  </section>
+</main>
+
+
 
     <!-------------------------------FOOTER------------------------------------->
 
@@ -90,25 +131,31 @@
     <!--------------------------------IONICON SCRIPT---------------------------->
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script>
-    function clickMenu() {
-      if (itens.style.display == 'block') {
-        itens.style.display = 'none'
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+  function clickMenu() {
+    if (itens.style.display == 'block') {
+      itens.style.display = 'none'
+  } else {
+      itens.style.display = 'block'
+}
+}
+  function closeMenu() {
+    if (itens.style.display == 'block') {
+      itens.style.display = 'none'
+  } else {
+      itens.style.display = 'block'
+}
+}
+  function abrirMenu() {
+    if (menu.style.display == 'block') {
+      menu.style.display = 'none'
     } else {
-        itens.style.display = 'block'
-}
-}
+      menu.style.display = 'block'
+    }
+  }
 
-    function closeMenu() {
-      if (itens.style.display == 'block') {
-        itens.style.display = 'none'
-    } else {
-        itens.style.display = 'block'
-}
-}
-
-  </script>
+</script>
 
   </body>
 </html>
