@@ -118,7 +118,7 @@ header section {
 
 /*--------------------------Title and Paragraf-------------------------------*/
 
-.contact h1{
+.contact h1 {
 padding: 2rem;
 font-size: 3rem;
 font-family: 'Roboto', sans-serif;
@@ -139,7 +139,7 @@ line-height: 3.2rem;
   margin: 4%;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 3rem;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   
 }
@@ -158,7 +158,16 @@ line-height: 3.2rem;
   font-size: 18px;
   font-family: "roboto", sans-serif;
   font-weight: 700;
+  text-align: center;
+  align-items: center;
 
+}
+
+.contactforms li ion-icon {
+  text-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: -6px;
 }
 
 .contactforms #card1{
@@ -323,5 +332,19 @@ footer{
   }
   #card1:hover, #card2:hover, #card3:hover, #card4:hover {
     transform: scale(1.07);
+  }
+
+  .contact h1 {
+    padding-top: 5rem;
+  }
+  .contactforms ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactforms ul li {
+    width: 25%;
+    font-size: 1.2rem;
   }
 }
