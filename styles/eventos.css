@@ -175,22 +175,22 @@ main .h1 {
 
 /*hover*/
 
-.protagonistas:hover, .quinta:hover{
+.corrida:hover, .interclasses:hover{
   background: #4caf4fd0 ;
   transform: scale(1.1);
 }
 
-.semear:hover, .robotica:hover{
+.festival:hover, .arria:hover{
   background: rgba(23, 62, 255, 0.842); ;
   transform: scale(1.1);
 }
 
-.eletivas:hover{
+.talentos:hover{
   background: #e43516da ;
   transform: scale(1.1);
 }
 
-.setembro:hover{
+.show:hover{
   background: #fadd3bc7;
   transform: scale(1.1);
 }
