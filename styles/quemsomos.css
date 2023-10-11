@@ -234,3 +234,25 @@ footer{
     transform: scale(1.07);
   }
 }
+
+.creditos {
+  background: #1b1a1a;
+  height: 3rem;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: .85rem;
+}
+
+.creditos a, .creditos p  {
+  color: #fff;
+}
+
+.creditos a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
