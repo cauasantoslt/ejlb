@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" href="./eventos.css" />
+    <link rel="stylesheet" href="-eventos.css" />
     <link rel="stylesheet" href="/script.js" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -65,42 +65,48 @@
 <main class="container">
   <section>
     <h1 class="h1">Eventos</h1>
-    <div class="corrida">
+    <div class="tudo">
+
+    <div class="corrida menuAbrir">
       <h1>Corrida de Aventura</h1>
       <p>Criada em 2011, a Corrida de Aventura reúne os alunos para uma experiência incrível, onde as equipes formadas pelos professores enfrentam provas desafiadoras!</p>
-      </div>
-    </div>
-    <div class="festival">
+      <div></div>
+      </div>    <div class="festival menuAbrir">
       <h1>Festival Esportivo</h1>
       <p>Realizado na Semana do Estudante, o festival conta com três dias de muita competição e põe os alunos frente a frente em diversas modalidades.</p>
+      <div></div>
     </div>
-    <div class="show">
+    <div class="show menuAbrir">
       <h1>Show das Exatas </h1>
     <p>A competição que acontece a cada dois anos, Junta as equipes dos professores das Ciências exatas em provas que exigem o conhecimento específico dos alunos.</p>
+    <div></div>
   </div>
-  <div class="talentos">
+  <div class="talentos menuAbrir">
     <h1>Show de Talentos</h1>
   <p>É chegado o momento de mostrar aquela sua habilidade que te faz ser único, e o Show de Tanlentos é o lugar certo para se mostrar as promessas da escola, reunindo Arte, Cultura, Música e Dança. </p>
+  <div></div>
 </div>
-<div class="interclasses">
+<div class="interclasses menuAbrir">
   <h1>Interclasses</h1>
 <p>É onde o filho chora e a mãe não vê! Os jogos Interclasses dividem as turmas para um confronto que  define a Sala Gloriosa da Escola. </p>
+<div></div>
 </div>
 
-<div class="garoto">
+<div class="garoto menuAbrir">
   <h1>Garoto EREM</h1>
 <p>É o concurso realizado para escolher o menino e a menina que irão representar a escola. </p>
+<div></div>
 </div>
 
-<div class="arraia">
+<div class="arraia menuAbrir">
   <h1>Arraiá da EJLB</h1>
 <p>Convida os alunos para a melhor época do ano, os festejos juninos! Trazendo a tradição e inovação, o Arriá da EJLB realça à cultura popular Nordestina.</p>
 
-<div id="menu" class="menu">
+<div>
 
 </div>
 </div>
-
+</div>
   </section>
 </main>
 
@@ -164,6 +170,13 @@
       menu.style.display = 'block'
     }
   }
+
+  var abrirElementos = document.querySelectorAll('.menuAbrir')
+  abrirElementos.forEach(function(menuAbrir) {
+    menuAbrir.addEventListener('click', function() {
+      menuAbrir.classList.toggle('abrir')
+    })
+  })
 
 </script>
 

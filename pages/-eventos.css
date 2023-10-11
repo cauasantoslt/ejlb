@@ -161,6 +161,20 @@ main .h1 {
   border: #1b1a1a 1.5px solid;
 }
 
+.menuAbrir h1 {
+  margin-bottom: .5rem;
+}
+
+.menuAbrir {
+  height: 14rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.abrir {
+  height: fit-content;
+}
+
 .arrow {
   width: 2.5rem;
   display: flex;
@@ -175,7 +189,7 @@ main .h1 {
 
 /*hover*/
 
-.corrida:hover, .interclasses:hover{
+/*.corrida:hover, .interclasses:hover{
   background: #4caf4fd0 ;
   transform: scale(1.1);
 }
@@ -194,7 +208,7 @@ main .h1 {
   background: #fadd3bc7;
   transform: scale(1.1);
 }
-
+*/
 /* MENUS */
 
 main .menu  {
@@ -323,6 +337,11 @@ footer{
   }
   .arrow {
     display: none;
+  }
+
+  .tudo {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
   }
 }
 
