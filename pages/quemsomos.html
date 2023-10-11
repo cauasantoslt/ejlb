@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" href="/styles/quemsomos.css" />
+    <link rel="stylesheet" href="./quemsomos.css" />
     <link rel="stylesheet" href="/script.js" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,7 +36,7 @@
                 <ul id="itens" class="header-links">
                   <ion-icon id="close" name="close-sharp" onclick="closeMenu()"></ion-icon>
                  
-                  <li><a href="./index.html">Início</a></li>
+                  <li><a href="../index.html">Início</a></li>
                   <li><a href="./projetos.html">Projetos</a></li>
                   <li><a href="./eventos.html">Eventos</a></li>
                   <li><a href="./quemsomos.html">Quem Somos</a></li>
@@ -49,7 +49,7 @@
           </div>
           <ul class="desktop-links">
            
-                <li><a href="./index.html">Início</a></li>
+                <li><a href="../index.html">Início</a></li>
                 <li><a href="./projetos.html">Projetos</a></li>
                 <li><a href="./eventos.html">Eventos</a></li>
                 <li><a href="./quemsomos.html">Quem Somos</a></li>
@@ -60,13 +60,88 @@
         <div>
       </section>
 
+    <!----------------------------------Container-------------------------------->
+      <div class="container">
+        <div class="title">
+          <h1>QUEM SOMOS</h1>
+          <p>Localizada em Tacaimbó-PE e fundada em 1982, a Escola Referência em Ensino Médio José Leite Barros, apelidada carinhosamente de "Zé Leite", é uma instituição de ensino pública conhecida pelo seu compromisso com a excelência educacional, tendo o slogan " <span id="slogan"> Somos referênica por excelência! </span> " a escola busca sempre atender as necessidades de seus alunos, buscando incentivar o projeto de vida e a importância dos laços pessoais que são criados diariamente.</p>
+        </div>
+
+        <div class="cards">
+          <h2>Conheça nossos Professores!</h2>
+        </div>
+
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+    
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+
+      </div>
     <!-------------------------------FOOTER------------------------------------->
 
     <footer >
       <section class="footer">
         <div class="footer-info">
           <h1>EREM<span>JLB</span>.</h1>
-          <p class="p1">&copy;2023 Alison-Jose, Cauã-Santos.</p>
+          <p class="p1">&copy;EREM José Leite Barros.</p>
           <p>Todos os direitos reservados.</p>
         </div>
         <div id="social-links">   
