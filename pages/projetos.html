@@ -65,56 +65,44 @@
 <main class="container">
   <section>
     <h1 class="h1">PROJETOS</h1>
-    <div class="protagonistas">
+    <div class="protagonistas menuAbrir">
       <h1>Protagonistas</h1>
       <p>Seguindo os pilares: Ser, Fazer, Conhecer e Conviver; os Protagonistas estão a fente da acolhida de novos estudantes e realização de projetos na escola.</p>
-      <img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
-      <div class="menu">
+      <div class="fotos">
 
       </div>
     </div>
-    <div class="semear">
+    <div class="semear menuAbrir">
       <h1>Monitoria</h1>
       <p>Os monitores tem o papel de orientar os companheiros de turma nas atividades junto de seus professores.</p>
-      <img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
-      <div class="menu">
-
+      <div class="fotos">
       </div>
     </div>
-    <div class="setembro">
+    <div class="setembro menuAbrir">
       <h1>Setembro Amarelo</h1>
     <p>Com o intuito de prevenir o Suicídio, a campanha do Setembro Amarelo é realizada todos os anos na escola, contando com atividades e palestras para à conscientização dos alunos.  </p>
-    <img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
-    <div class="menu">
-
+    <div class="fotos">
     </div>
   </div>
-  <div class="eletivas">
+  <div class="eletivas menuAbrir">
     <h1>Eletivas</h1>
   <p>As Eletivas são aulas opcionais que podem ser escolhidas de acordo com o gosto dos alunos.</p>
-  <img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
-  <div class="menu">
-
+  <div class="fotos">
   </div>
 </div>
-<div class="quinta">
+<div class="quinta menuAbrir">
   <h1>Quinta do Abraço</h1>
 <p>Seguindo a tradição de ser realizado pelos alunos do Segundo Ano "B", na Quinta do abraço os alunos recebem mensagens motivadoras e afeto dos demais alunos. </p>
-<img id="arrow" onclick="abrirMenu()" class="arrow" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
-<div id="menu1" class="menu">
-
+<div class="fotos">
 </div>
 </div>
 
-<div class="robotica">
+<div class="robotica menuAbrir">
   <h1>Robotica</h1>
 <p>Organizada pelo professor Edilson, a turma da Robótica participa de olimpiadas e projetos específicos da área.</p>
-<img id="arrow" class="arrow" onclick="abrirMenu()" src="assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
-<div id="menu" class="menu">
-
+ <div class="fotos">
+ </div>
 </div>
-</div>
-
   </section>
 </main>
 
@@ -173,6 +161,15 @@
       menu.style.display = 'block'
     }
   }
+
+  var abrirElementos = document.querySelectorAll('.menuAbrir')
+  abrirElementos.forEach(function(menuAbrir) {
+    menuAbrir.addEventListener('click', function() {
+      menuAbrir.classList.toggle('abrir')
+    })
+  })
+
+
 
 </script>
 

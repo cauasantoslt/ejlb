@@ -140,60 +140,46 @@ main .h1 {
   margin-bottom: 2rem;
 }
 
-
 .protagonistas, .quinta {
   background: var(--secundary-color) ;
   border: #1b1a1a 1.5px solid;
+  height: 8rem;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .semear, .robotica {
   background: var(--terciary-color);
   border: #1b1a1a 1.5px solid;
+  height: 8rem;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .setembro {
   background: var(--highlight-color);
   border: #1b1a1a 1.5px solid;
+  height: 8rem;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .eletivas {
   background: var(--primary-color);
   border: #1b1a1a 1.5px solid;
+  height: 8rem;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.arrow {
-  width: 2.5rem;
-  display: flex;
-  margin-left: 85%;
-  transition: 0.5s;
+.menuAbrir h1 {
+  margin-bottom: .7rem;
 }
 
-.arrow:hover {
-  transform: rotate(90deg) scale(1.5);
-  animation: 10s linear infinite;
+.abrir {
+  height: fit-content;
 }
 
-/*hover*/
-
-.protagonistas:hover, .quinta:hover{
-  background: #4caf4fd0 ;
-  transform: scale(1.1);
-}
-
-.semear:hover, .robotica:hover{
-  background: rgba(23, 62, 255, 0.842); ;
-  transform: scale(1.1);
-}
-
-.eletivas:hover{
-  background: #e43516da ;
-  transform: scale(1.1);
-}
-
-.setembro:hover{
-  background: #fadd3bc7;
-  transform: scale(1.1);
-}
 
 /* MENUS */
 
