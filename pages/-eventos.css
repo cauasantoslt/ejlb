@@ -341,9 +341,8 @@ footer{
 
   .tudo {
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
-    width: 80%;
-    justify-content: center;
+    grid-template-columns:repeat(3, 1fr);
+    margin: 0;
   }
 
   .container .h1 {
