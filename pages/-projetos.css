@@ -193,6 +193,7 @@ main .menu  {
 
 footer{
   border: 1px solid black;
+  border-bottom: none;
   display: flex;
   justify-content: space-evenly;
   font-family: 'Roboto', sans-serif;
@@ -321,7 +322,6 @@ footer{
   height: 3rem;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  margin: 0 2rem;
   display: flex;
   text-align: center;
   align-items: center;
