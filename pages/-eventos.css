@@ -39,22 +39,15 @@ header section {
 
 .header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 1rem;
+  background: #1b1a1a;
+  padding: 1rem 0;
+  justify-content: space-between;
+  text-align: center;
   align-items: center;
-  padding-bottom: 1.3rem;
-  gap: 1.5rem;
-  background: var(--text-color);
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  margin: auto;
-  
 }
 
 .title-image {
-  width: 4.2rem;
+  width: 3.5rem;
   filter: drop-shadow(2px 2px 2px rgba(5, 0, 0, 0.9));
 }
 
@@ -82,19 +75,17 @@ header section {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: var(--body-color);
+  font-size: 1.3rem;
 }
 
 .desktop-links {
   display: flex;
-  position: fixed;
-  background: var(--text-color);
+  background: #1b1a1a;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   align-items: center;
-  width: 100vw;
-  z-index: 1;
-  padding:6.5rem 0rem 1rem 0rem;
-  font-family: 'Roboto', sans-serif;
   justify-content: center;
+  padding-bottom: 0.5rem;
 }
 
 .desktop-links a {
@@ -117,14 +108,12 @@ header section {
 /*MAIN*/
 
 main {
-  padding-top: 8rem;
   transition: 1s;
 }
 
 main div {
   margin: 4% 9% 6%;
   text-align: left;
-  border-radius: 10px;
   padding: 1rem;
   font-family: 'Roboto', sans-serif;
   transition: 0.5s;
@@ -137,7 +126,7 @@ main div h1 {
 main .h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0 auto 2rem auto;
 }
 
 
@@ -145,28 +134,28 @@ main .h1 {
   width: 100%;
   background: var(--secundary-color) ;
   border: #1b1a1a 1.5px solid;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 4px 4px 0px;
 }
 
 .festival, .garoto{
   background: var(--terciary-color);
   border: hsl(0, 2%, 10%) 1.5px solid;
   width: 100%;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 4px 4px 0px;
 }
 
 .show, .arraia{
   background: var(--highlight-color);
   border: #1b1a1a 1.5px solid;
   width: 100%;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 4px 4px 0px;
 }
 
 .talentos {
   background: var(--primary-color);
   border: #1b1a1a 1.5px solid;
   width: 100%;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 4px 4px 0px;
 }
 
 .menuAbrir h1 {
@@ -294,6 +283,10 @@ footer{
     display: none;
   }
 
+  .h1 {
+    padding-top: 1rem;
+  }
+
   @keyframes open {
     0% {right: -20rem;}
   }
@@ -339,8 +332,9 @@ footer{
 
   .tudo {
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    margin: 0;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    margin: 2rem;
+    gap: 50px;
   }
 
   .container .h1 {
@@ -349,7 +343,7 @@ footer{
 }
 
 .creditos {
-  background: #1b1a1a;
+  background: var(--text-color);
   height: 3rem;
   color: #fff;
   font-family: 'Roboto', sans-serif;
