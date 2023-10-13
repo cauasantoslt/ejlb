@@ -206,6 +206,18 @@ header section {
   margin-left: 34px;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  margin: 2rem;
+  gap: 50px;
+}
+
+
+#card1, #card2, #card3, #card4 {
+  margin: auto
+}
+
 div a .arrow {
   margin: 80px 20px 10px 180px;
 }
@@ -401,10 +413,6 @@ footer{
 
   #card1, #card2, #card3, #card4 {
     margin: auto
-  }
-
-  #card4 {
-    margin-right: 3rem;
   }
   
   #card1:hover, #card2:hover, #card3:hover, #card4:hover {
