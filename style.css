@@ -170,8 +170,8 @@ header section {
 */
 
 .cards {
-  margin: auto;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .cards div:hover {
@@ -355,6 +355,13 @@ footer{
   }
   .desktop-links {
     display: none;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
   }
 
   @keyframes open {
