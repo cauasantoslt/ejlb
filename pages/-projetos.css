@@ -146,6 +146,7 @@ main .h1 {
   height: 12rem;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: 4px 4px 5px;
 }
 
 .semear, .robotica {
@@ -154,6 +155,7 @@ main .h1 {
   height: 12rem;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: 4px 4px 5px;
 }
 
 .setembro {
@@ -162,6 +164,7 @@ main .h1 {
   height: 12rem;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: 4px 4px 5px;
 }
 
 .eletivas {
@@ -170,6 +173,7 @@ main .h1 {
   height: 12rem;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: 4px 4px 5px;
 }
 
 .menuAbrir h1 {
