@@ -392,8 +392,10 @@ footer{
     margin-left: 10rem;
   }
   .cards {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   #card1, #card2, #card3, #card4 {
