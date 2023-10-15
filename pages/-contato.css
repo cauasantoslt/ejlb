@@ -20,15 +20,6 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  max-height: 100%;
-  text-align: center;
-  margin: 0 2rem;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  margin-top: 6.4rem;
-}
-
 /* HEADER SECTION */
 
 header section {
@@ -66,8 +57,7 @@ header section {
 .header-links li {
   padding: 1rem;
   font-size: 1.3rem;
-  text-align: center;
-  align-items: center;
+
   color: var(--text-color);
 }
 
@@ -89,8 +79,6 @@ header section {
   display: flex;
   position: fixed;
   background: var(--text-color);
-  text-align: center;
-  align-items: center;
   width: 100vw;
   z-index: 1;
   padding:6.5rem 0rem 1rem 0rem;
@@ -113,35 +101,32 @@ header section {
   width: 7rem;
   height: 2.5rem;
   border-radius: 10px;
-
 }
 
 /*--------------------------Title and Paragraf-------------------------------*/
 
 .contact h1 {
-padding: 2rem;
-font-size: 3rem;
-font-family: 'Roboto', sans-serif;
-font-weight: 900;
-letter-spacing: -2px;
-line-height: 3.2rem;
+  margin-top: 8rem;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 3.2rem;
+  text-align: center;
 
 }
 
 .contact h1 span{
   color: var(--primary-color);
-
 }
 
 .contact p{
-  border: 2px ;
-  border-radius: 10px;
   margin: 4%;
   font-family: 'Roboto', sans-serif;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   font-size: 1rem;
   font-weight: 400;
-  
+  text-align: center;
 }
 
 /*----------------------------- Contact Cards----------------------------- */
@@ -159,13 +144,9 @@ line-height: 3.2rem;
   font-family: "roboto", sans-serif;
   font-weight: 700;
   text-align: center;
-  align-items: center;
-
 }
 
 .contactforms li ion-icon {
-  text-align: center;
-  align-items: center;
   font-size: 1.5rem;
   margin-bottom: -6px;
 }
@@ -225,14 +206,15 @@ line-height: 3.2rem;
 /*FOOTER */
 
 footer{
-  border: 1px solid black;
+  border-top: 1px solid;
   border-bottom: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  margin: 0 2rem;
-}
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+  }
 
 .footer-info {
   padding: 2rem 0rem 0rem 2rem;
@@ -359,7 +341,7 @@ footer{
 
 .creditos {
   background: #1b1a1a;
-  height: 3rem;
+  height: 2rem;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   display: flex;
