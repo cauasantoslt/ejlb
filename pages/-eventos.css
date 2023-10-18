@@ -24,8 +24,6 @@ body {
   max-height: 100%;
   text-align: center;
   margin: 0 2rem;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
 
 /* HEADER SECTION */
@@ -173,6 +171,13 @@ main .h1 {
   height: fit-content;
 }
 
+#eventspics{
+  margin-top: 2rem ;
+  width: 100%;
+  border:1px solid ;
+  border-radius: 10px;
+  box-shadow: #1b1a1a;
+}
 /*hover*/
 
 /*.corrida:hover, .interclasses:hover{
@@ -206,13 +211,14 @@ main .menu  {
 /*FOOTER */
 
 footer{
-  border: 1px solid black;
+  border-top: 1px solid black;
   border-bottom: none;
+  margin-top: -1px;
   display: flex;
   justify-content: space-evenly;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  margin: 0 2rem;
+  background-color: rgba(19, 19, 19, 0.11);
 }
 
 .footer-info {

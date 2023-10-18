@@ -24,8 +24,6 @@ body {
   max-height: 100%;
   text-align: center;
   margin: 0 2rem;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
   padding: 5%;
   margin-top: 15%;
 }
@@ -377,13 +375,13 @@ ol, li {
 /*FOOTER */
 
 footer{
-  border: 1px solid black;
+  border-top: 1px solid black;
   border-bottom: none;
   display: flex;
   justify-content: space-evenly;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  margin: 0 2rem;
+  background-color: rgba(19, 19, 19, 0.11);
 }
 
 .footer-info {

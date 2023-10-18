@@ -214,6 +214,7 @@ footer{
   font-size: 16px;
   padding: 0 2rem;
   margin-bottom: 2rem;
+  background-color: rgba(19, 19, 19, 0.11);
   }
 
 .footer-info {
