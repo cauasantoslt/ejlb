@@ -355,7 +355,7 @@ footer{
   color: #fff;
   font-family: 'Roboto', sans-serif;
   display: flex;
-  text-align: center;
+  text-align : center;
   align-items: center;
   justify-content: center;
   font-size: .85rem;
