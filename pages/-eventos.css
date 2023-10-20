@@ -13,6 +13,7 @@
   --secundary-color: #4CAF50;
   --highlight-color: #fade3b;
   --terciary-color: rgb(74, 105, 255);
+  --bg-color: #27272721;
 }
 
 body {
@@ -23,7 +24,9 @@ body {
 .container {
   max-height: 100%;
   text-align: center;
-  margin: 0 2rem;
+  margin: 4rem 2rem 2rem 2rem;
+  border-radius: 10px;
+  background: var(--bg-color);
 }
 
 /* HEADER SECTION */
@@ -38,7 +41,7 @@ header section {
 .header {
   display: flex;
   background: #1b1a1a;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   justify-content: space-between;
   text-align: center;
   align-items: center;
@@ -211,14 +214,14 @@ main .menu  {
 /*FOOTER */
 
 footer{
-  border-top: 1px solid black;
+  border-radius: 10px 10px 0 0;
   border-bottom: none;
-  margin-top: -1px;
+  margin: 0 2rem ;
   display: flex;
   justify-content: space-evenly;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  background-color: rgba(19, 19, 19, 0.11);
+  background-color: var(--bg-color);
 }
 
 .footer-info {
@@ -349,6 +352,7 @@ footer{
 }
 
 .creditos {
+  margin: 0 2rem;
   background: var(--text-color);
   height: 3rem;
   color: #fff;
