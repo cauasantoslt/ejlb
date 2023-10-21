@@ -135,7 +135,14 @@ main div h1 {
 main .h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
-  margin-bottom: 0 auto 2rem auto;
+  padding-top: 2rem;
+}
+
+.p{
+  font-family: 'Robotp', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 

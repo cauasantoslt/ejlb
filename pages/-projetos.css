@@ -151,6 +151,12 @@ main .h1 {
   margin-bottom: 2rem;
 }
 
+.p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
 .protagonistas, .quinta {
   background: var(--secundary-color) ;
   border: #1b1a1a 1.5px solid;
