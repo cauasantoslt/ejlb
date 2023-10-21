@@ -16,10 +16,11 @@
   --terciary-color: rgb(74, 105, 255);
   --gradiente:linear-gradient(
     to right,
-    rgb(74, 105, 255) 70%,
+    rgb(74, 105, 255) 50%,
     rgb(76, 175, 80) ,
-    rgb(228, 53, 22)  ,
-    rgb(250, 222, 59) 
+    rgb(250, 222, 59),
+    rgb(228, 53, 22) 
+    
   )
 }
 
@@ -303,16 +304,29 @@ div a .arrow {
 
 /*FOOTER */
 
-footer{
+footer {
+  position: relative;
   margin: 0 2rem;
   margin-top: 3rem;
-  border-radius: 10px 10px 0 0;
   padding: 0rem 2rem;
   background-color: var(--bg-color);
   display: flex;
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
+  border-radius: 10px 10px 0 0 ;
 }
+
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px; /* Altura da borda gradiente */
+  border-radius: 10px 10px 0 0; /* Manter a borda arredondada */
+  background: var(--gradiente); /* Gradiente desejado */
+}
+
 
 .footer-info {
   padding: 2rem 0rem 0rem 2rem;
@@ -434,7 +448,7 @@ footer{
 }
 
 .creditos {
-  background: #1b1a1a;
+  background:#1b1a1a;
   margin: 0 2rem;
   height: 3rem;
   color: #fff;
