@@ -63,12 +63,7 @@ header section {
   padding: 1rem;
   font-size: 1.3rem;
   color: var(--text-color);
-
 }
-
-.header-links li:hover {
-}
-
 
 .header-links ion-icon {
   font-size: 2rem;
