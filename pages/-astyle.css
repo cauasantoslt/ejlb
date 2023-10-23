@@ -258,6 +258,14 @@ footer::before {
     padding-bottom: 0;
     margin-bottom: 0.94rem;
   }
+  .container {
+    margin-top: 7rem;
+  }
+  .abrevied-title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
 
 @media screen and (min-width: 751px) {
