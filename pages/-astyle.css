@@ -59,12 +59,16 @@ header section {
 }
 
 .header-links li {
+  width: 5rem;
   padding: 1rem;
   font-size: 1.3rem;
-  text-align: center;
-  align-items: center;
   color: var(--text-color);
+
 }
+
+.header-links li:hover {
+}
+
 
 .header-links ion-icon {
   font-size: 2rem;
@@ -236,7 +240,7 @@ footer::before {
     position: fixed;
     right: 0;
     top: 0;
-    border-left: 1px solid --text-color;
+
     animation: open 1s;
   }
   .desktop-links {
@@ -254,12 +258,12 @@ footer::before {
     0% {right: -20rem;}
   }
   #itens li:hover{
-    border-bottom: 1px solid black;
     padding-bottom: 0;
     margin-bottom: 0.94rem;
   }
   .container {
     margin-top: 7rem;
+    padding-bottom: 1rem;
   }
   .abrevied-title {
     position: absolute;
@@ -284,10 +288,14 @@ footer::before {
   #desktop-image2 {
     margin-left: 10rem;
   }
+  .container {
+    padding-bottom: 2rem;
+  }
+}
   .creditos {
+    width: 100%;
     background:#1b1a1a;
-    margin: 0 2rem;
-    height: 3rem;
+    height: 2rem;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -295,7 +303,6 @@ footer::before {
     align-items: center;
     justify-content: center;
     font-size: .85rem;
-
   }
 
   .creditos a, .creditos p  {
@@ -305,5 +312,4 @@ footer::before {
   .creditos a {
     text-decoration: underline;
     text-underline-offset: 2px;
-  }
   }

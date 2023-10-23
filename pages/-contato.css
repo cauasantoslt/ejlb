@@ -35,7 +35,6 @@
 
 .contactforms li{
   border: 2px solid #1b1a1a;
-  border-radius: 10px;
   padding: 2rem;
   margin: 4% 16% 6%;
   font-size: 18px;
@@ -52,25 +51,25 @@
 .contactforms #card1{
   background:var(--secundary-color);
   transition: 0.2s;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 3px 3px 0px;
 }
 
 .contactforms #card2{
   background:var(--highlight-color) ;
   transition: 0.2s;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 3px 3px 0px;
 }
 
 .contactforms #card3{
   background: var(--primary-color);
   transition: 0.2s;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 3px 3px 0px;
 }
 
 .contactforms #card4{
   background:var(--terciary-color);
    transition: 0.2s;
-   box-shadow: 4px 4px 5px;
+   box-shadow: 3px 3px 0px;
 }
 
 /*Hover*/

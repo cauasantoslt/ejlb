@@ -30,9 +30,8 @@
 
 .main-section-1 button {
   padding: .8rem;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 1.5px 1.5px;
-
 }
 
 
@@ -112,7 +111,6 @@ div a .arrow {
   border: 2px solid #000;
   background: var(--terciary-color);
   box-shadow: 4px 4px 0px 0px #000;
-  margin: 30px 32px 10px 48px;
 
 }
 
@@ -123,8 +121,6 @@ div a .arrow {
   border: 2px solid #000;
   background: var(--highlight-color);
   box-shadow: 4px 4px 0px 0px #000;
-  margin: 10px 48px 10px 32px;
-
 }
 
 #card3{
@@ -134,7 +130,6 @@ div a .arrow {
   border: 2px solid #000; 
   background: var(--secundary-color);
   box-shadow: 4px 4px 0px 0px #000;
-  margin: 10px 32px 10px 48px;
 }
 
 #card4{
@@ -145,7 +140,6 @@ div a .arrow {
   border: 2px solid #000;
   background: var(--primary-color);
   box-shadow: 4px 4px 0px 0px #000;
-  margin: 10px 48px 20px 32px;
   padding-bottom: 20px;
   margin-bottom: 4em;
 }
@@ -182,6 +176,37 @@ div a .arrow {
     margin: auto;
     justify-content: center;
     align-items: center;
+  }
+  
+  .main-section-1 {
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .main-section-1 h1 {
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 3.2rem;
+    margin-right: 20%;
+  }
+  
+  .main-section-1 h1 span {
+    color: var(--primary-color);
+  }
+  .main-section-1 p {
+    font-family: 'Roboto', sans-serif;
+    width: 19rem;
+    padding-right: 20%;
+  }
+  
+  
+  .main-section-1 button {
+    padding: .8rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
   }
 }
 

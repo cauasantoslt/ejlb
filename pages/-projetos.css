@@ -5,7 +5,7 @@
   height: 12rem;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 4px 4px 0px;
 }
 
 .semear, .robotica {
@@ -14,7 +14,7 @@
   height: 12rem;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 4px 4px 0px;
 }
 
 .setembro {
@@ -23,7 +23,7 @@
   height: 12rem;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 4px 4px 0px;
 }
 
 .eletivas {
@@ -32,7 +32,7 @@
   height: 12rem;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 4px 4px 5px;
+  box-shadow: 4px 4px 0px;
 }
 
 .menuAbrir h1 {
