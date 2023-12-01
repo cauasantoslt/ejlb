@@ -8,6 +8,11 @@
   box-shadow: 4px 4px 0px;
 }
 
+.arrow{
+  font-size: 32px;
+  margin-left: 300px;
+}
+
 .semear, .robotica {
   background: var(--terciary-color);
   border: #1b1a1a 1.5px solid;
