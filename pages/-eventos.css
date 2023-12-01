@@ -63,9 +63,7 @@
   .main-1 {
     margin-top: calc(+1rem);
   }
-  #desktop-image2 {
-    margin-left: 10rem;
-  }
+
   .cards {
     display: flex;
     justify-content: center;
@@ -73,12 +71,11 @@
 
   #card1, #card2, #card3, #card4 {
     margin: 1rem;
-
   }
 
   .tudo {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     margin: 2rem;
     gap: 50px;
   }
