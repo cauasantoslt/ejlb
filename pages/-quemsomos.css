@@ -10,11 +10,40 @@
 .title h1 {
   text-align: center;
   padding: 1rem;
+  font-family: "roboto" , sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .title p{
   font-family: "roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  text-align: justify;
+}
+
+.objective{
+  margin:0 1.5rem
+}
+
+#slogan{
+color: #e43516;
+font-weight: 600;
+}
+
+.objective h1{
+  font-family: "roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem 0;
+
+}
+
+.objective p{
+  font-family: "roboto" , sans-serif;
+  font-size: 1.2rem;
   font-weight: 400;
   padding-bottom: 1rem;
   text-align: justify;
@@ -23,12 +52,13 @@
 .cards h2 {
   text-align: center;
   padding: 0 1rem;
+  font-family: "roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 0;
+
 }
 
-#slogan{
-color: #e43516;
-font-weight: 600;
-}
 
 /*------------------------------------------------------------------------*/
 

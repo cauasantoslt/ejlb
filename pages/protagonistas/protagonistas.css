@@ -48,7 +48,7 @@
   .lista{
     margin: 1rem 0;
     padding: 1rem;
-    width: 350px;
+    width: 300px;
     flex-shrink: 0;
     border: 2px solid #000;
     background: var(--terciary-color);
@@ -67,10 +67,10 @@
     margin: 0 1rem;
   }
 
-  .cards p{
+  .lista p{
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -93,8 +93,9 @@
   }
 
   .end, .paragrafo-1 {
+    margin-top: 1rem;
     font-family: "Roboto" , sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     font-weight: 500;
     color: var(--text-color);
