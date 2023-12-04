@@ -281,6 +281,10 @@ footer::before {
   .header {
     height: 5rem;
   }
+  div.header {
+    padding: 0 1rem;
+    justify-content: space-between;
+  }
 }
 
 
