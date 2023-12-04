@@ -251,6 +251,11 @@ footer::before {
     align-items: center;
   }
 
+  div.header {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
   @keyframes open {
     0% {right: -20rem;}
   }
